@@ -6,7 +6,7 @@
 /*   By: aheister <aheister@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/02 16:18:48 by aheister      #+#    #+#                 */
-/*   Updated: 2021/09/20 20:15:26 by aheister      ########   odam.nl         */
+/*   Updated: 2021/09/21 11:06:05 by aheister      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -151,6 +151,6 @@ int	main(int argc, char	**argv, char **envp)
 	close(input.fds[0]);
 	close(input.fds[1]);
 	free_list(&input);
-	system ("leaks pipex");
+	//system ("leaks pipex");
 	return (0);
 }

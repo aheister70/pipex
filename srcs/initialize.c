@@ -6,7 +6,7 @@
 /*   By: aheister <aheister@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/08 16:07:23 by aheister      #+#    #+#                 */
-/*   Updated: 2021/09/20 20:33:19 by aheister      ########   odam.nl         */
+/*   Updated: 2021/09/21 11:06:25 by aheister      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,7 +91,7 @@ void	adapt_input_cmd(char *s_cmd, t_input *input)
 		cmd_0 = ft_strtrim(cmd_1, " ");
 		cmd_1 = ft_strtrim(cmd_0, "'");
 		cmd->cmd[1] = ft_strtrim(cmd_1, "\"");
-		free(s_cmd);
+		//free(s_cmd);
 		free(cmd_0);
 		free(cmd_1);
 	}
